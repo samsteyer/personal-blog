@@ -1,0 +1,38 @@
+body {
+    background-color: #181c2f;
+    margin: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Gotham Black',sans-serif;
+    font-size: 1.9em;
+    margin: 0;
+}
+h2 {
+    color: #ccc;
+    font-family: "Gotham Normal", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+p {
+    color: white;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 50px 0px;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: #f46059;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 8px 30px;
+}

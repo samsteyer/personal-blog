@@ -1,6 +1,5 @@
 nav {
     background-color: #181c2f;
-    color: white;
     font-family: "Gotham Normal", sans-serif;
     font-size: 16px;
     font-weight: lighter;
@@ -15,17 +14,30 @@ nav {
     margin: 0 1em;
     padding: 0;
 }
+.nav-link a {
+    color: white;
+}
+#solar-img {
+    padding-top: 60px;
+}
 #splash {
     background-color: #181c2f;
     /* background-color: #f46059; */
     font-size: 1.5em;
     color: white;
     grid-area: splash;
-    padding: 0% 25%;
+    padding: 120px 25% 0 25%;
     text-align: center;
 }
 #top-right {
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 20px;
+}
+#top-right a {
+    color: white;
+    margin: 0 1em;
+}
+#top-right button {
+    margin: 0 1em;
 }
