@@ -1,0 +1,31 @@
+nav {
+    background-color: #181c2f;
+    color: white;
+    font-family: "Gotham Normal", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    grid-area: nav;
+    margin: 0;
+    padding: 0.3em;
+    position: relative
+}
+.nav-link {
+    display: inline;
+    list-style-type: none;
+    margin: 0 1em;
+    padding: 0;
+}
+#splash {
+    background-color: #181c2f;
+    /* background-color: #f46059; */
+    font-size: 1.5em;
+    color: white;
+    grid-area: splash;
+    padding: 0% 25%;
+    text-align: center;
+}
+#top-right {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}

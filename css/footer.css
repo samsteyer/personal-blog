@@ -1,0 +1,16 @@
+footer {
+    background-color: #181c2f;
+    color: white;
+    font-family: "Gotham Normal", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    grid-area: footer;
+    margin: 0;
+    padding: 1em;
+}
+.footer-link {
+    display: inline;
+    list-style-type: none;
+    margin: 0 2em;
+    padding: 0;
+}

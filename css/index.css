@@ -1,64 +1,35 @@
-#backstop {
-    background-color: #fff9f6;
-    grid-area: back;
-}
-#backstop2 {
-    background-color: #fff9f6;
-    grid-area: back2;
-}
-#bio {
-    background-color: #f46059;
-    grid-area: bio;
-    padding: 3em;
-}
+@import 'footer.css';
+@import 'header.css';
+
+/* General styles */
 body {
     background-color: #181c2f;
     margin: 0;
-}
-#cover-image {
-    grid-area: image;
-}
-footer {
-    background-color: #181c2f;
-    color: white;
-    font-family: "Gotham Normal", sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
-    grid-area: footer;
-    margin: 0;
-    padding: 1em;
-}
-.footer-link {
-    display: inline;
-    list-style-type: none;
-    margin: 0 2em;
-    padding: 0;
 }
 html {
     margin: 0;
     padding: 0;
 }
-#image {
-    background-color: #eafcfe;
-    grid-area: img;
-}
-nav {
-    background-color: #181c2f;
-    color: white;
-    font-family: "Gotham Normal", sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
-    grid-area: nav;
+h1 {
+    font-family: 'Gotham Black',sans-serif;
+    font-size: 1.9em;
     margin: 0;
-    padding: 0.3em;
-    position: relative
 }
-.nav-link {
-    display: inline;
-    list-style-type: none;
-    margin: 0 1em;
-    padding: 0;
+h2 {
+    color: #ccc;
+    font-family: "Gotham Normal", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
+p {
+    color: white;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 50px 0px;
+}
+
+/* high-level grid layout styles */
 #container {
     display: grid;
     grid-template-columns: 100%;
@@ -137,6 +108,28 @@ nav {
         width: 300px;
     }
 }
+
+/* Specific element styles */
+#backstop {
+    background-color: #fff9f6;
+    grid-area: back;
+}
+#backstop2 {
+    background-color: #fff9f6;
+    grid-area: back2;
+}
+#bio {
+    background-color: #f46059;
+    grid-area: bio;
+    padding: 3em;
+}
+#cover-image {
+    grid-area: image;
+}
+#image {
+    background-color: #eafcfe;
+    grid-area: img;
+}
 #posts-container {
     align-content: flex-start;
     background-color: #fff9f6;
@@ -148,36 +141,4 @@ nav {
 }
 .preview {
     color: #666;
-}
-p {
-    color: white;
-    font-family: "Gotham Thin", sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 50px 0px;
-}
-h1 {
-    font-family: 'Gotham Black',sans-serif;
-    font-size: 1.9em;
-    margin: 0;
-}
-h2 {
-    color: #ccc;
-    font-family: "Gotham Normal", sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
-}
-#splash {
-    background-color: #181c2f;
-    /* background-color: #f46059; */
-    font-size: 1.5em;
-    color: white;
-    grid-area: splash;
-    padding: 0% 25%;
-    text-align: center;
-}
-#top-right {
-    position: absolute;
-    right: 40px;
-    top: 20px;
 }
