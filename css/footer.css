@@ -1,16 +1,38 @@
 footer {
     background-color: #181c2f;
     color: white;
-    font-family: "Gotham Normal", sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
     grid-area: footer;
     margin: 0;
     padding: 1em;
 }
-.footer-link {
-    display: inline;
+footer ul {
+    padding-left: 0;
+}
+footer li {
+    color: #ccc;
+    font-family: "Gotham Normal", sans-serif;
+    font-weight: lighter;
+    hover: underline;
+    line-height: 25px;
     list-style-type: none;
-    margin: 0 2em;
+    margin: 0;
     padding: 0;
+}
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-column {
+    margin: 30px 80px;
+}
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
