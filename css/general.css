@@ -17,12 +17,20 @@ h2 {
     font-size: 20px;
     font-weight: lighter;
 }
+h3 {
+    color: #888;
+    font-family: "Gotham Normal", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+/* Reference to https://www.w3schools.com/cssref/pr_gen_quotes.asp */
 p {
     color: white;
     font-family: "Gotham Thin", sans-serif;
     font-size: 14px;
     line-height: 24px;
     margin: 50px 0px;
+    quotes: "'" "'"; 
 }
 a {
     text-decoration: none;

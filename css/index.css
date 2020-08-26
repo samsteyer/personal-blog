@@ -14,20 +14,47 @@
     "bio"
     "footer"
 }
-.post {
+.post-card {
     background-color: white;
     border-color: #888;
     border-style: dashed;
     border-width: 1px;
-    border-radius: 1vw;
-    box-shadow: 8px 12px 0 #fff3f0;
+    border-radius: 30px;
+    box-shadow: 10px 15px 0 #fff3f0;
     height: 300px;
     margin: 30px;
-    padding: 2vw;
+    padding: 30px;
+    position: relative;
     width: 90%;
 }
-.post h1 {
+.post-card h1 {
     color: #181c2f;
+    margin-bottom: 0;
+}
+.post-card p {
+    margin-top: 30px;
+}
+.card-tag {
+    border-radius: 2em;
+    color: white;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 14px;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.data-tag {
+    background-color: #0f78ce;
+}
+.environment-tag {
+    background-color: #39CCCC;
+}
+.opinion-tag {
+    background-color: #F7882F;
 }
 
 /* Medium Screens */
@@ -43,14 +70,15 @@
         "bio"
         "footer"
     }
-    .post {
+    .post-card {
         background-color: white;
         border: 1px dashed #888;
-        border-radius: 1vw;
-        box-shadow: 8px 12px 0 #fff3f0;
+        border-radius: 30px;
+        box-shadow: 10px 15px 0 #fff3f0;
         height: 300px;
         margin: 30px;
-        padding: 2vw;
+        padding: 30px;
+        position: relative;
         width: 300px;
     }
 }
@@ -60,7 +88,7 @@
     #container {
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-template-rows: 80px 720px 400px 700px 300px 200px;
+        grid-template-rows: 80px 620px 400px 700px 300px 200px;
         grid-template-areas: 
         "nav nav"
         "splash image"
@@ -69,16 +97,17 @@
         "posts back2"
         "footer footer"
     }
-    .post {
+    .post-card {
         background-color: white;
         border-color: #888;
         border-style: dashed;
         border-width: 1px;
-        border-radius: 1vw;
-        box-shadow: 8px 12px 0 #fff3f0;
+        border-radius: 30px;
+        box-shadow: 10px 15px 0 #fff3f0;
         height: 300px;
         margin: 50px;
-        padding: 2vw;
+        padding: 30px;
+        position: relative;
         width: 300px;
     }
 }
