@@ -6,15 +6,48 @@
 #container {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 80px 620px 1000px 100px;
+    grid-template-rows: 80px 620px 180px 1000px 100px;
     grid-template-areas: 
     "nav nav nav"
     "post-title post-title post-title"
+    "left post-info right"
     "left postbody right"
-    "footer footer footer"
+    "footer footer footer";
 }
 
 /* Post specific elements */
+#post-info {
+    background-color: #fff9f6;
+    border-left: 1px dashed #888;
+    border-right: 1px dashed #888;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "date date"
+    "avatar author-info";
+    grid-area: post-info;
+}
+#date {
+    color: #ccc;
+    grid-area: date;
+    margin: 10px;
+}
+#author-avatar {
+    display: inline-block;
+    grid-area: avatar;
+    height: 100px;
+    margin: 20px;
+    width: 100px;
+}
+#avatar-image {
+    border-radius: 200px;
+    max-height: 100%;
+}
+#author-info {
+    grid-area: author-info;
+}
+
 /* Took inspiration from
  * https://stackoverflow.com/questions/21957356/darken-a-background-image-without-affecting-the-text
  */
