@@ -3,16 +3,45 @@
 @import 'header.css';
 
 /* high-level grid layout styles */
+
+
+/* for mobile */
 #container {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 80px 620px 180px 1000px 400px;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 800px 400px 1500px 700px;
     grid-template-areas: 
-    "nav nav nav"
-    "post-title post-title post-title"
-    "left post-info right"
-    "left postbody right"
-    "footer footer footer";
+    "nav"
+    "post-title"
+    "post-info"
+    "postbody"
+    "footer"
+}
+@media (min-width: 1000px) and (max-width: 1299px) {
+    #container {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: 80px 620px 180px 1000px 400px;
+        grid-template-areas: 
+        "nav nav nav"
+        "post-title post-title post-title"
+        "left post-info right"
+        "left postbody right"
+        "footer footer footer";
+    }
+}
+@media (min-width: 1300px) {
+    #container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 80px 620px 180px 1000px 400px;
+        grid-template-areas: 
+        "nav nav nav"
+        "post-title post-title post-title"
+        "left post-info right"
+        "left postbody right"
+        "footer footer footer";
+    }
 }
 
 /* Post specific elements */

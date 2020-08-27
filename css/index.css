@@ -6,7 +6,7 @@
 #container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 570px 2200px 450px 400px;
+    grid-template-rows: 80px 800px 2200px 700px 700px;
     grid-template-areas: 
     "nav"
     "splash"
@@ -27,38 +27,8 @@
     position: relative;
     width: 90%;
 }
-.post-card h1 {
-    color: #181c2f;
-    margin-bottom: 0;
-}
-.post-card p {
-    margin-top: 30px;
-}
-.card-tag {
-    border-radius: 2em;
-    color: white;
-    font-family: "Gotham Thin", sans-serif;
-    font-size: 14px;
-    padding: 0.8em;
-    position: absolute;
-    text-align: center;
-    width: 80px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-.data-tag {
-    background-color: #0f78ce;
-}
-.environment-tag {
-    background-color: #39CCCC;
-}
-.opinion-tag {
-    background-color: #F7882F;
-}
-
 /* Medium Screens */
-@media (min-width: 800px) and (max-width: 1299px) {
+@media (min-width: 1000px) and (max-width: 1299px) {
     #container {
         display: grid;
         grid-template-columns: 100%;
@@ -111,6 +81,36 @@
         width: 300px;
     }
 }
+.post-card h1 {
+    color: #181c2f;
+    margin-bottom: 0;
+}
+.post-card p {
+    margin-top: 30px;
+}
+.card-tag {
+    border-radius: 2em;
+    color: white;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 14px;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.data-tag {
+    background-color: #0f78ce;
+}
+.environment-tag {
+    background-color: #39CCCC;
+}
+.opinion-tag {
+    background-color: #F7882F;
+}
+
 
 /* Specific element styles */
 #backstop {

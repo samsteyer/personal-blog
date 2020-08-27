@@ -1,3 +1,19 @@
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Medium Screens */
+@media (min-width: 1000px) {
+    .footer-main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
 footer {
     background-color: #f6f6f6;
     color: #181c2f;
@@ -24,11 +40,6 @@ footer li:hover {
 }
 .footer-column {
     margin: 30px 80px;
-}
-.footer-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .footer-title {
     color: #181c2f;
