@@ -1,6 +1,6 @@
 footer {
-    background-color: #181c2f;
-    color: white;
+    background-color: #f6f6f6;
+    color: #181c2f;
     grid-area: footer;
     margin: 0;
     padding: 1em;
@@ -9,7 +9,7 @@ footer ul {
     padding-left: 0;
 }
 footer li {
-    color: #ccc;
+    color: #444;
     font-family: "Gotham Normal", sans-serif;
     font-weight: lighter;
     hover: underline;
@@ -31,7 +31,7 @@ footer li:hover {
     flex-wrap: wrap;
 }
 .footer-title {
-    color: #fff;
+    color: #181c2f;
     font-family: ’Merriweather’, serif;
     font-size: 30px;
     padding-bottom: 10px;

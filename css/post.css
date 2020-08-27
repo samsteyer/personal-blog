@@ -6,7 +6,7 @@
 #container {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 80px 620px 180px 1000px 100px;
+    grid-template-rows: 80px 620px 180px 1000px 400px;
     grid-template-areas: 
     "nav nav nav"
     "post-title post-title post-title"
@@ -17,7 +17,7 @@
 
 /* Post specific elements */
 #post-info {
-    background-color: #fff9f6;
+    background-color: white;
     border-left: 1px dashed #888;
     border-right: 1px dashed #888;
     display: grid;
@@ -56,7 +56,6 @@
     background-size: cover;
     display: inline-block;
     font-size: 1.5em;
-    color: white;
     grid-area: post-title;
     padding: 120px 25% 0 25%;
     position: relative;
@@ -71,7 +70,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(#181c2f, rgba(0, 0, 0, 0));
+    background: linear-gradient(white, rgba(255, 255, 255, 0.7));
 }
 #post-title h1,
 #post-title h2 {
@@ -79,7 +78,7 @@
 }
 
 #postbody {
-    background-color: #fff9f6;
+    background-color: white;
     border-left: 1px dashed #888;
     border-right: 1px dashed #888;
     grid-area: postbody;

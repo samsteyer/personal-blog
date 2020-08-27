@@ -6,7 +6,7 @@
 #container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 570px 2000px 450px 200px;
+    grid-template-rows: 80px 570px 2200px 450px 400px;
     grid-template-areas: 
     "nav"
     "splash"
@@ -62,7 +62,7 @@
     #container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 80px 470px 1250px 450px 200px;
+        grid-template-rows: 80px 470px 1250px 450px 400px;
         grid-template-areas: 
         "nav"
         "splash"
@@ -88,7 +88,7 @@
     #container {
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-template-rows: 80px 620px 400px 700px 300px 200px;
+        grid-template-rows: 80px 620px 400px 700px 300px 400px;
         grid-template-areas: 
         "nav nav"
         "splash image"
