@@ -28,7 +28,7 @@
     width: 90%;
 }
 /* Medium Screens */
-@media (min-width: 1000px) and (max-width: 1299px) {
+@media (min-width: 1000px) and (max-width: 1259px) {
     #container {
         display: grid;
         grid-template-columns: 100%;
@@ -54,10 +54,10 @@
 }
 
 /* Large Screens */
-@media (min-width: 1300px) {
+@media (min-width: 1260px) {
     #container {
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 75% 25%;
         grid-template-rows: 80px 620px 400px 700px 300px 400px;
         grid-template-areas: 
         "nav nav"
