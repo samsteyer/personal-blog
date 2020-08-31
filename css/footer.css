@@ -20,9 +20,11 @@ footer {
     margin: 0;
     padding: 1em;
 }
+
 footer ul {
     padding-left: 0;
 }
+
 footer li {
     color: #444;
     font-family: "Gotham Normal", sans-serif;
@@ -33,13 +35,16 @@ footer li {
     margin: 0;
     padding: 0;
 }
+
 footer li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
 .footer-column {
     margin: 30px 80px;
 }
+
 .footer-title {
     color: #181c2f;
     font-family: ’Merriweather’, serif;

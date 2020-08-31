@@ -14,6 +14,7 @@
     "bio"
     "footer"
 }
+
 .post-card {
     background-color: white;
     border-color: #888;
@@ -27,6 +28,7 @@
     position: relative;
     width: 90%;
 }
+
 /* Medium Screens */
 @media (min-width: 1000px) and (max-width: 1259px) {
     #container {
@@ -81,13 +83,16 @@
         width: 300px;
     }
 }
+
 .post-card h1 {
     color: #181c2f;
     margin-bottom: 0;
 }
+
 .post-card p {
     margin-top: 30px;
 }
+
 .card-tag {
     border-radius: 2em;
     color: white;
@@ -101,16 +106,18 @@
     bottom: 20px;
     right: 20px;
 }
+
 .data-tag {
     background-color: #0f78ce;
 }
+
 .environment-tag {
     background-color: #39CCCC;
 }
+
 .opinion-tag {
     background-color: #F7882F;
 }
-
 
 /* Specific element styles */
 /* Above the bio below the header */
@@ -119,18 +126,22 @@
     grid-area: back;
 }
 /* Below the bio above the footer */
+
 #backstop2 {
     background-color: #fff9f6;
     grid-area: back2;
 }
+
 #bio {
     background-color: #f46059;
     grid-area: bio;
     padding: 3em;
 }
+
 #cover-image {
     grid-area: image;
 }
+
 #posts-container {
     align-content: flex-start;
     background-color: #fff9f6;
@@ -140,6 +151,7 @@
     grid-area: posts;
     justify-content: flex-start;
 }
+
 .preview {
     color: #444;
 }

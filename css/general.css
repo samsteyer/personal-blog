@@ -6,6 +6,7 @@ body {
     padding: 0px;
     width: 100%;
 }
+
 html {
     height: 100%;
     margin: 0px;
@@ -13,23 +14,27 @@ html {
     padding: 0px;
     width: 100%;
 }
+
 h1 {
     font-family: 'Gotham Black',sans-serif;
     font-size: 1.9em;
     margin: 0;
 }
+
 h2 {
     color: #444;
     font-family: "Gotham Normal", sans-serif;
     font-size: 20px;
     font-weight: lighter;
 }
+
 h3 {
     color: #888;
     font-family: "Gotham Normal", sans-serif;
     font-size: 16px;
     font-weight: lighter;
 }
+
 p {
     color: white;
     font-family: "Gotham Thin", sans-serif;
@@ -39,9 +44,11 @@ p {
     /* Reference to https://www.w3schools.com/cssref/pr_gen_quotes.asp */
     quotes: "'" "'"; 
 }
+
 a {
     text-decoration: none;
 }
+
 button {
     background-color: #f46059;
     border: none;
@@ -51,6 +58,7 @@ button {
     margin: 0px 20px;
     padding: 8px 30px;
 }
+
 button:hover {
     cursor: pointer;
 }

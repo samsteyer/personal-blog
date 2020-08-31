@@ -14,6 +14,7 @@
     "postbody"
     "footer"
 }
+
 /* Medium Screens */
 @media (min-width: 1000px) and (max-width: 1299px) {
     #container {
@@ -28,6 +29,7 @@
         "footer footer footer";
     }
 }
+
 /* Large Screens */
 @media (min-width: 1300px) {
     #container {
@@ -56,11 +58,13 @@
     "avatar author-info";
     grid-area: post-info;
 }
+
 #date {
     color: #ccc;
     grid-area: date;
     margin: 10px;
 }
+
 #author-avatar {
     display: inline-block;
     grid-area: avatar;
@@ -68,10 +72,12 @@
     margin: 20px;
     width: 100px;
 }
+
 #avatar-image {
     border-radius: 200px;
     max-height: 100%;
 }
+
 #author-info {
     grid-area: author-info;
 }
@@ -82,18 +88,23 @@
 #post-title-4 {
     background-image: url("../images/post4.jpeg");
 }
+
 #post-title-3 {
     background-image: url("../images/post3.jpeg");
 }
+
 #post-title-2 {
     background-image: url("../images/post2.jpeg");
 }
+
 #post-title-1 {
     background-image: url("../images/post1.png");
 }
+
 #post-title-0 {
     background-image: url("../images/post0.jpeg");
 }
+
 .post-title {
     background-size: cover;
     display: inline-block;
@@ -103,6 +114,7 @@
     position: relative;
     text-align: center;
 }
+
 .post-title:before {
     content: "";
     display: block;
@@ -113,10 +125,12 @@
     right: 0;
     background: linear-gradient(white, rgba(255, 255, 255, 0.7));
 }
+
 .post-title h1,
 .post-title h2 {
   position: relative;
 }
+
 #postbody {
     background-color: white;
     border-left: 1px dashed #888;
@@ -124,13 +138,16 @@
     grid-area: postbody;
     padding: 2%;
 }
+
 #posttext {
     color: #444;
 }
+
 #left {
     background-color: #fff9f6;
     grid-area: left;
 }
+
 #right {
     background-color: #fff9f6;
     grid-area: right;
