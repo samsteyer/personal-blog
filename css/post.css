@@ -128,7 +128,16 @@
 
 .post-title h1,
 .post-title h2 {
-  position: relative;
+    position: relative;
+}
+
+figcaption {
+    bottom: 20px;
+    color: #444;
+    position: absolute;
+    font-family: serif;
+    font-size: 12px;
+    right: 20px;
 }
 
 #postbody {

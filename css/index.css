@@ -140,7 +140,17 @@
 
 #cover-image {
     grid-area: image;
+    position: relative;
 }
+figcaption {
+    bottom: 75px;
+    color: #bbb;
+    position: absolute;
+    font-family: serif;
+    font-size: 12px;
+    left: 15px;
+}
+
 
 #posts-container {
     align-content: flex-start;
