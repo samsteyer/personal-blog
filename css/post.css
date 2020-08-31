@@ -79,8 +79,20 @@
 /* Took inspiration from
  * https://stackoverflow.com/questions/21957356/darken-a-background-image-without-affecting-the-text
  */
+#post-title-4 {
+    background-image: url("../images/post4.jpeg");
+}
+#post-title-3 {
+    background-image: url("../images/post3.jpeg");
+}
+#post-title-2 {
+    background-image: url("../images/post2.jpeg");
+}
+#post-title-1 {
+    background-image: url("../images/post1.png");
+}
 #post-title-0 {
-    background-image: url("../images/post0.jpg");
+    background-image: url("../images/post0.jpeg");
 }
 .post-title {
     background-size: cover;
