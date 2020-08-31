@@ -22,9 +22,8 @@ nav {
 }
 #splash {
     background-color: white;
-    /* background-color: #f46059; */
-    font-size: 1.5em;
     color: #181c2f;
+    font-size: 1.5em;
     grid-area: splash;
     padding: 120px 25% 0 25%;
     text-align: center;

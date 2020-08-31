@@ -2,7 +2,7 @@
 @import 'footer.css';
 @import 'header.css';
 
-/* high-level grid layout styles */
+/* Mobile */
 #container {
     display: grid;
     grid-template-columns: 100%;
@@ -113,10 +113,12 @@
 
 
 /* Specific element styles */
+/* Above the bio below the header */
 #backstop {
     background-color: #fff9f6;
     grid-area: back;
 }
+/* Below the bio above the footer */
 #backstop2 {
     background-color: #fff9f6;
     grid-area: back2;
