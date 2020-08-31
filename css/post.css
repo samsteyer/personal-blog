@@ -51,11 +51,11 @@
     border-left: 1px dashed #888;
     border-right: 1px dashed #888;
     display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 20% 80%;
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 20% 70% 10%;
     grid-template-areas: 
-    "date date"
-    "avatar author-info";
+    "date date date"
+    "avatar author-info social-sharing";
     grid-area: post-info;
 }
 
@@ -81,6 +81,43 @@
 #author-info {
     grid-area: author-info;
 }
+
+/* inspiration: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+#social-sharing {
+    grid-area: social-sharing;
+}
+
+.fa {
+    border-radius: 100px;
+    display: block;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+    color: white;
+}
+
 
 /* Took inspiration from
  * https://stackoverflow.com/questions/21957356/darken-a-background-image-without-affecting-the-text
