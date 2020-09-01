@@ -93,6 +93,7 @@
 #date {
     color: #ccc;
     grid-area: date;
+    margin-top: 15px;
 }
 
 #author-avatar {

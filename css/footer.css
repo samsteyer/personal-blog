@@ -21,11 +21,11 @@ footer {
     padding: 1em;
 }
 
-footer ul {
+.footer-links {
     padding-left: 0;
 }
 
-footer li {
+.footer-link {
     color: #444;
     font-family: "Gotham Normal", sans-serif;
     font-weight: lighter;
@@ -36,7 +36,7 @@ footer li {
     padding: 0;
 }
 
-footer li:hover {
+footer-link:hover {
     cursor: pointer;
     text-decoration: underline;
 }

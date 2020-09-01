@@ -88,12 +88,14 @@
 
 }
 
-.post-card h1 {
+.post-card-header {
     color: #181c2f;
     margin-bottom: 0;
+    text-decoration: none;
 }
 
-.post-card p {
+.preview {
+    color: #444;
     margin-top: 30px;
 }
 
@@ -164,8 +166,4 @@ figcaption {
     flex-wrap: wrap;
     grid-area: posts;
     justify-content: flex-start;
-}
-
-.preview {
-    color: #444;
 }

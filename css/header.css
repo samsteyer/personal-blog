@@ -9,14 +9,14 @@ nav {
     position: relative
 }
 
-.nav-link {
+.nav-item {
     display: inline;
     list-style-type: none;
     margin: 0 1em;
     padding: 0;
 }
 
-.nav-link a {
+.nav-link {
     color: #181c2f;
 }
 
@@ -39,7 +39,7 @@ nav {
     top: 20px;
 }
 
-#top-right a {
+.top-right-link {
     color: #181c2f;
     display: none;
     margin: 0 1em;
@@ -61,7 +61,7 @@ nav {
 
 }
 
-#top-right button {
+#subscribe-button {
     margin: 0 1em;
 }
 
