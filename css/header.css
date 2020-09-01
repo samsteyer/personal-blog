@@ -41,9 +41,28 @@ nav {
 
 #top-right a {
     color: #181c2f;
+    display: none;
     margin: 0 1em;
+}
+#bio-link {
+ display: none;
+}
+
+/* Non-mobile Screens */
+@media (min-width: 1000px) {
+    
+    #top-right a {
+        display: inline;
+    }
+
+    #bio-link {
+        display: inline;
+    }
+
 }
 
 #top-right button {
     margin: 0 1em;
 }
+
+

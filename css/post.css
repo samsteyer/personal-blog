@@ -15,8 +15,22 @@
     "footer"
 }
 
+#post-info {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas: 
+    "date avatar"
+    "author-info author-info"
+    "social-sharing social-sharing";
+    grid-area: post-info;
+    margin-left: 10px;
+}
+
 /* Medium Screens */
 @media (min-width: 1000px) and (max-width: 1299px) {
+
     #container {
         display: grid;
         grid-template-columns: 15% 70% 15%;
@@ -28,10 +42,26 @@
         "left postbody right"
         "footer footer footer";
     }
+
+    #post-info {
+        background-color: white;
+        border-left: 1px dashed #888;
+        border-right: 1px dashed #888;
+        display: grid;
+        grid-template-columns: 30% 60% 10%;
+        grid-template-rows: 20% 70% 10%;
+        grid-template-areas: 
+        "date date date"
+        "avatar author-info social-sharing";
+        grid-area: post-info;
+        margin-left: 0;
+    }
+
 }
 
 /* Large Screens */
 @media (min-width: 1300px) {
+
     #container {
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -43,26 +73,26 @@
         "left postbody right"
         "footer footer footer";
     }
-}
 
-/* Post specific elements */
-#post-info {
-    background-color: white;
-    border-left: 1px dashed #888;
-    border-right: 1px dashed #888;
-    display: grid;
-    grid-template-columns: 30% 60% 10%;
-    grid-template-rows: 20% 70% 10%;
-    grid-template-areas: 
-    "date date date"
-    "avatar author-info social-sharing";
-    grid-area: post-info;
+    #post-info {
+        background-color: white;
+        border-left: 1px dashed #888;
+        border-right: 1px dashed #888;
+        display: grid;
+        grid-template-columns: 30% 60% 10%;
+        grid-template-rows: 20% 70% 10%;
+        grid-template-areas: 
+        "date date date"
+        "avatar author-info social-sharing";
+        grid-area: post-info;
+        margin-left: 0;
+    }
+
 }
 
 #date {
     color: #ccc;
     grid-area: date;
-    margin: 10px;
 }
 
 #author-avatar {
